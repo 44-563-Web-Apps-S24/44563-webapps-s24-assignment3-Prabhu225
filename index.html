@@ -41,5 +41,11 @@
 <tr><td>Nattu Nattu</td><td>Because nominated to oscar  </td><td>M M Keeravani</td></tr>
 <tr><td>Chilipigaa chusthavala</td><td>Feel good song</td><td>Haris jayraj</td></tr>
 </table>
+<hr>
+<h3>Code display</h3>
+<p>Uses Dart packaging URI to get the path to a package allowing one to pull assets/files from a Dart package. This ultimately allows “Flutter-like” asset bundling within a Dart package</p>
+<pre>import 'dart:isolate';
+var resolvedUri = await Isolate.resolvePackageUri(Uri(scheme: 'package', path: 'my_package/src/assets/cool_image.jpg'));</pre>
+<a href="https://code.pieces.app/collections/dart">code snippet link</a>
 </body>
 </html>
